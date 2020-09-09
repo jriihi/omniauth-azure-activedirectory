@@ -24,6 +24,7 @@ require 'jwt'
 require 'omniauth/strategies/oauth2'
 require 'openssl'
 require 'securerandom'
+require 'net/http'
 
 module OmniAuth
   module Strategies
