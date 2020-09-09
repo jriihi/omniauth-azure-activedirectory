@@ -14,7 +14,8 @@ Gem::Specification.new do |s|
   s.files           = `git ls-files`.split("\n")
   s.require_paths   = ['lib']
 
-  s.add_runtime_dependency 'jwt', '~> 1.5'
+  s.add_dependency 'jwt', ['>= 1.0', '< 3.0']
+  # s.add_runtime_dependency 'jwt', '~> 1.5'
   s.add_runtime_dependency 'omniauth', '~> 1.1'
   s.add_runtime_dependency 'omniauth-oauth2', '~> 1.4'
 
